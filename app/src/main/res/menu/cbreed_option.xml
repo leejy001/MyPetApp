@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/cat001"
+        android:title="러시안블루" />
+    <item
+        android:id="@+id/cat002"
+        android:title="샴" />
+</menu>

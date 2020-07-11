@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lee.testchan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="마이 펫"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".SIGN"
+                  android:label="마이 펫">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainView"
+                  android:label="홈"></activity>
+        <activity android:name=".LifeView"
+                  android:label="펫 일기"></activity>
+        <activity android:name=".CareView"
+                  android:label="펫 케어"></activity>
+        <activity android:name=".WriteInfo"
+                  android:label="펫 등록"></activity>
+        <activity android:name=".All_Animal_ViewActivity"
+                  android:label="펫 상태"></activity>
+        <activity android:name=".Life_Board_ViewActivity"
+                  android:label="펫 일기"></activity>
+        <activity android:name=".Modify_Delete_Info"
+                  android:label="펫 등록"></activity>
+        <activity android:name=".Life_Board_All_View"
+                  android:label="펫 일기"></activity>
+        <activity android:name=".CareAllView_View"
+                  android:label="펫 상태"></activity>
+
+        <!-- crop activity -->
+        <activity
+            android:name="com.soundcloud.android.crop.CropImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+    </application>
+
+</manifest>

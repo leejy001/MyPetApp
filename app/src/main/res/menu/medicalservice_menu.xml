@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/medical_menu_vaccin"
+        android:title="필수접종" />
+    <item
+        android:id="@+id/medical_menu_check"
+        android:title="건강검진" />
+    <item
+        android:id="@+id/medical_menu_scaling"
+        android:title="스케일링" />
+    <item
+        android:id="@+id/medical_menu_heartworm"
+        android:title="심장사상충" />
+
+</menu>

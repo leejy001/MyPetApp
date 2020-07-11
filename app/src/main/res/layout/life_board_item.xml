@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@android:color/holo_orange_light"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/box_life_name"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/box_life_title"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/box_life_date"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/box_life_id"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="글쓰기"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/life_nameInput"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="이름 입력"
+            android:layout_margin="10dp"/>
+
+        <EditText
+            android:id="@+id/life_titleInput"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:hint="제목입력"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/life_StoryInput"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/border"
+        android:gravity="top"
+        android:hint="기록하기"
+        android:maxLength="100"
+        android:padding="10dp"
+        android:textCursorDrawable="@color/colorPrimaryDark"
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/life_cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="취소하기" />
+
+        <Button
+            android:id="@+id/life_SaveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="저장하기"
+            android:layout_marginLeft="20dp"/>
+        
+    </LinearLayout>
+    
+
+</LinearLayout>
